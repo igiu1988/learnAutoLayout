@@ -16,6 +16,7 @@
 		D385348819FE990E00ED81A1 /* learnAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D385348719FE990E00ED81A1 /* learnAutoLayoutTests.m */; };
 		D385349419FE9B8500ED81A1 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D385349319FE9B8500ED81A1 /* UIView+Utils.m */; };
 		D385349C19FFD5CC00ED81A1 /* UIView+AddLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D385349B19FFD5CC00ED81A1 /* UIView+AddLine.m */; };
+		D3B894421A012D240040C470 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B894411A012D240040C470 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		D385349619FE9C9100ED81A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D385349A19FFD5CC00ED81A1 /* UIView+AddLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddLine.h"; sourceTree = "<group>"; };
 		D385349B19FFD5CC00ED81A1 /* UIView+AddLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddLine.m"; sourceTree = "<group>"; };
+		D3B894401A012D240040C470 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D3B894411A012D240040C470 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 			children = (
 				D385347219FE990E00ED81A1 /* FirstViewController.h */,
 				D385347319FE990E00ED81A1 /* FirstViewController.m */,
+				D3B894401A012D240040C470 /* ThirdViewController.h */,
+				D3B894411A012D240040C470 /* ThirdViewController.m */,
 				D385347519FE990E00ED81A1 /* Main.storyboard */,
 				D385346B19FE990E00ED81A1 /* Supporting Files */,
 			);
@@ -259,6 +264,7 @@
 			files = (
 				D385347419FE990E00ED81A1 /* FirstViewController.m in Sources */,
 				D385347119FE990E00ED81A1 /* AppDelegate.m in Sources */,
+				D3B894421A012D240040C470 /* ThirdViewController.m in Sources */,
 				D385349C19FFD5CC00ED81A1 /* UIView+AddLine.m in Sources */,
 				D385349419FE9B8500ED81A1 /* UIView+Utils.m in Sources */,
 				D385346E19FE990E00ED81A1 /* main.m in Sources */,

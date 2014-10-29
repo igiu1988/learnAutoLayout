@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Third View Controller-->
         <scene sceneID="niv-1d-Qbm">
             <objects>
-                <viewController id="TSJ-k4-6lD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TSJ-k4-6lD" userLabel="Third View Controller" customClass="ThirdViewController" colorLabel="IBBuiltInLabel-Yellow" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="d0V-7n-vAT"/>
                         <viewControllerLayoutGuide type="bottom" id="pss-Y2-V24"/>
@@ -16,18 +16,52 @@
                     <view key="view" contentMode="scaleToFill" id="E1q-wg-QR5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gG-TJ-JHj">
+                                <rect key="frame" x="31" y="71" width="204" height="221"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bal-Wk-VSH">
+                                <rect key="frame" x="243" y="71" width="300" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bal-Wk-VSH" firstAttribute="leading" secondItem="3gG-TJ-JHj" secondAttribute="trailing" constant="8" symbolic="YES" id="4B6-dR-KqN"/>
+                            <constraint firstItem="pss-Y2-V24" firstAttribute="top" secondItem="Bal-Wk-VSH" secondAttribute="bottom" constant="180" id="4sS-NT-CMj"/>
+                            <constraint firstItem="3gG-TJ-JHj" firstAttribute="top" secondItem="d0V-7n-vAT" secondAttribute="bottom" constant="51" id="8ma-XS-VXT"/>
+                            <constraint firstItem="3gG-TJ-JHj" firstAttribute="top" secondItem="Bal-Wk-VSH" secondAttribute="top" id="Jok-hO-L90"/>
+                            <constraint firstItem="3gG-TJ-JHj" firstAttribute="leading" secondItem="E1q-wg-QR5" secondAttribute="leadingMargin" constant="15" id="LWe-Hx-H3U"/>
+                            <constraint firstItem="pss-Y2-V24" firstAttribute="top" secondItem="3gG-TJ-JHj" secondAttribute="bottom" constant="259" id="ZUA-Uj-6hu"/>
+                            <constraint firstItem="Bal-Wk-VSH" firstAttribute="leading" secondItem="E1q-wg-QR5" secondAttribute="leading" constant="243" id="cGP-im-YQc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bal-Wk-VSH" secondAttribute="trailing" constant="41" id="k5a-xH-Dvd"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="0FA-Ta-0yR"/>
+                    <tabBarItem key="tabBarItem" title="Item 3" id="0FA-Ta-0yR"/>
+                    <attributedString key="userComments">
+                        <fragment content="这是一个这样的">
+                            <attributes>
+                                <font key="NSFont" size="19" name="STHeitiSC-Light"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="View">
+                            <attributes>
+                                <font key="NSFont" size="19" name="Menlo-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jT4-O8-fKU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="454" y="315"/>
         </scene>
-        <!--bottom line-->
+        <!--Second-->
         <scene sceneID="3Ew-w4-gw2">
             <objects>
-                <viewController id="LpV-Tl-jFQ" sceneMemberID="viewController">
+                <viewController id="LpV-Tl-jFQ" userLabel="Second" colorLabel="IBBuiltInLabel-Orange" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0ui-fh-bZt"/>
                         <viewControllerLayoutGuide type="bottom" id="IdP-U7-ZoF"/>
@@ -163,7 +197,7 @@
                                     <action selector="action2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="N7f-hK-vO6"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LPO-J9-CVX">
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LPO-J9-CVX">
                                 <rect key="frame" x="28" y="109" width="120" height="88"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gVq-jv-uVM">

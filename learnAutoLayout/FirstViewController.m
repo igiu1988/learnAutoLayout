@@ -29,16 +29,24 @@
     // view1 左右充满，距父view上部30，高度5不变
     UIView *view1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
     view1.translatesAutoresizingMaskIntoConstraints = NO;
-    view1.backgroundColor = [UIColor blueColor];
+    view1.backgroundColor = [UIColor colorWithRed:0 green:1 blue:0 alpha:0.5];
     [container addSubview:view1];
     
-    NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeLeft multiplier:1 constant:0];
-    NSLayoutConstraint *constraint2 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeRight multiplier:1 constant:0];
-//    NSLayoutConstraint *constraint3 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeTop multiplier:1 constant:44];
-    NSLayoutConstraint *constraint5 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeBottom multiplier:1 constant:10];
-    NSLayoutConstraint *constraint4 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1 constant:44];
-    [container addConstraints:@[constraint1, constraint2, constraint5]];
+    
+    NSLayoutConstraint *constraint4 = [NSLayoutConstraint constraintWithItem:view1
+                                                                   attribute:NSLayoutAttributeHeight
+                                                                   relatedBy:NSLayoutRelationEqual
+                                                                      toItem:nil
+                                                                   attribute:NSLayoutAttributeNotAnAttribute
+                                                                  multiplier:1
+                                                                    constant:44];
     [view1 addConstraint:constraint4];
+    
+    NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeLeft multiplier:1 constant:0];
+    NSLayoutConstraint *constraint2 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeRight multiplier:1 constant:-10];
+    //    NSLayoutConstraint *constraint3 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeTop multiplier:1 constant:44];
+    NSLayoutConstraint *constraint5 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeBottom multiplier:1 constant:-10];
+    [container addConstraints:@[constraint1, constraint2, constraint5]];
     
     
    
