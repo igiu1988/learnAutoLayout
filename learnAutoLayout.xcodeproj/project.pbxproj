@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		D385346E19FE990E00ED81A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D385346D19FE990E00ED81A1 /* main.m */; };
 		D385347119FE990E00ED81A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D385347019FE990E00ED81A1 /* AppDelegate.m */; };
-		D385347419FE990E00ED81A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D385347319FE990E00ED81A1 /* ViewController.m */; };
+		D385347419FE990E00ED81A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D385347319FE990E00ED81A1 /* FirstViewController.m */; };
 		D385347719FE990E00ED81A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D385347519FE990E00ED81A1 /* Main.storyboard */; };
 		D385347919FE990E00ED81A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D385347819FE990E00ED81A1 /* Images.xcassets */; };
 		D385347C19FE990E00ED81A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D385347A19FE990E00ED81A1 /* LaunchScreen.xib */; };
 		D385348819FE990E00ED81A1 /* learnAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D385348719FE990E00ED81A1 /* learnAutoLayoutTests.m */; };
 		D385349419FE9B8500ED81A1 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D385349319FE9B8500ED81A1 /* UIView+Utils.m */; };
-		D385349919FEAE5300ED81A1 /* HorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D385349819FEAE5300ED81A1 /* HorizontalLine.m */; };
+		D385349C19FFD5CC00ED81A1 /* UIView+AddLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D385349B19FFD5CC00ED81A1 /* UIView+AddLine.m */; };
+		D3B894421A012D240040C470 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B894411A012D240040C470 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +35,8 @@
 		D385346D19FE990E00ED81A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D385346F19FE990E00ED81A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D385347019FE990E00ED81A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D385347219FE990E00ED81A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D385347319FE990E00ED81A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D385347219FE990E00ED81A1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D385347319FE990E00ED81A1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		D385347619FE990E00ED81A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D385347819FE990E00ED81A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D385347B19FE990E00ED81A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -45,8 +46,10 @@
 		D385349219FE9B8500ED81A1 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
 		D385349319FE9B8500ED81A1 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
 		D385349619FE9C9100ED81A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		D385349719FEAE5300ED81A1 /* HorizontalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalLine.h; sourceTree = "<group>"; };
-		D385349819FEAE5300ED81A1 /* HorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalLine.m; sourceTree = "<group>"; };
+		D385349A19FFD5CC00ED81A1 /* UIView+AddLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddLine.h"; sourceTree = "<group>"; };
+		D385349B19FFD5CC00ED81A1 /* UIView+AddLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddLine.m"; sourceTree = "<group>"; };
+		D3B894401A012D240040C470 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D3B894411A012D240040C470 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,7 @@
 		D385345F19FE990E00ED81A1 = {
 			isa = PBXGroup;
 			children = (
+				D3B8943F19FFEA520040C470 /* Library */,
 				D385346A19FE990E00ED81A1 /* learnAutoLayout */,
 				D385348419FE990E00ED81A1 /* learnAutoLayoutTests */,
 				D385346919FE990E00ED81A1 /* Products */,
@@ -88,16 +92,11 @@
 		D385346A19FE990E00ED81A1 /* learnAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				D385349119FE9B8500ED81A1 /* UIView-Utils */,
-				D385346F19FE990E00ED81A1 /* AppDelegate.h */,
-				D385347019FE990E00ED81A1 /* AppDelegate.m */,
-				D385347219FE990E00ED81A1 /* ViewController.h */,
-				D385347319FE990E00ED81A1 /* ViewController.m */,
+				D385347219FE990E00ED81A1 /* FirstViewController.h */,
+				D385347319FE990E00ED81A1 /* FirstViewController.m */,
+				D3B894401A012D240040C470 /* ThirdViewController.h */,
+				D3B894411A012D240040C470 /* ThirdViewController.m */,
 				D385347519FE990E00ED81A1 /* Main.storyboard */,
-				D385349719FEAE5300ED81A1 /* HorizontalLine.h */,
-				D385349819FEAE5300ED81A1 /* HorizontalLine.m */,
-				D385347819FE990E00ED81A1 /* Images.xcassets */,
-				D385347A19FE990E00ED81A1 /* LaunchScreen.xib */,
 				D385346B19FE990E00ED81A1 /* Supporting Files */,
 			);
 			path = learnAutoLayout;
@@ -106,6 +105,10 @@
 		D385346B19FE990E00ED81A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D385347819FE990E00ED81A1 /* Images.xcassets */,
+				D385347A19FE990E00ED81A1 /* LaunchScreen.xib */,
+				D385346F19FE990E00ED81A1 /* AppDelegate.h */,
+				D385347019FE990E00ED81A1 /* AppDelegate.m */,
 				D385349619FE9C9100ED81A1 /* PrefixHeader.pch */,
 				D385346C19FE990E00ED81A1 /* Info.plist */,
 				D385346D19FE990E00ED81A1 /* main.m */,
@@ -136,7 +139,27 @@
 				D385349219FE9B8500ED81A1 /* UIView+Utils.h */,
 				D385349319FE9B8500ED81A1 /* UIView+Utils.m */,
 			);
-			path = "UIView-Utils";
+			name = "UIView-Utils";
+			path = "learnAutoLayout/UIView-Utils";
+			sourceTree = "<group>";
+		};
+		D3B8943E19FFEA340040C470 /* WYLine */ = {
+			isa = PBXGroup;
+			children = (
+				D385349A19FFD5CC00ED81A1 /* UIView+AddLine.h */,
+				D385349B19FFD5CC00ED81A1 /* UIView+AddLine.m */,
+			);
+			name = WYLine;
+			path = learnAutoLayout;
+			sourceTree = "<group>";
+		};
+		D3B8943F19FFEA520040C470 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D3B8943E19FFEA340040C470 /* WYLine */,
+				D385349119FE9B8500ED81A1 /* UIView-Utils */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D385347419FE990E00ED81A1 /* ViewController.m in Sources */,
+				D385347419FE990E00ED81A1 /* FirstViewController.m in Sources */,
 				D385347119FE990E00ED81A1 /* AppDelegate.m in Sources */,
-				D385349919FEAE5300ED81A1 /* HorizontalLine.m in Sources */,
+				D3B894421A012D240040C470 /* ThirdViewController.m in Sources */,
+				D385349C19FFD5CC00ED81A1 /* UIView+AddLine.m in Sources */,
 				D385349419FE9B8500ED81A1 /* UIView+Utils.m in Sources */,
 				D385346E19FE990E00ED81A1 /* main.m in Sources */,
 			);
@@ -440,6 +464,7 @@
 				D385348D19FE990E00ED81A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D385348E19FE990E00ED81A1 /* Build configuration list for PBXNativeTarget "learnAutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +473,7 @@
 				D385349019FE990E00ED81A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
