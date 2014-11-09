@@ -35,29 +35,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QfG-7h-1aQ">
-                                <color key="backgroundColor" red="0.26956493399999998" green="1" blue="0.52420190560000002" alpha="1" colorSpace="calibratedRGB"/>
-=======
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gG-TJ-JHj">
-                                <rect key="frame" x="31" y="71" width="204" height="221"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bal-Wk-VSH">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bal-Wk-VSH">
                                 <rect key="frame" x="243" y="71" width="300" height="300"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l24-Hf-vvo">
-                                        <rect key="frame" x="129" y="139" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="l24-Hf-vvo" firstAttribute="leading" secondItem="Bal-Wk-VSH" secondAttribute="leading" constant="129" id="5EP-28-Uho"/>
-                                </constraints>
->>>>>>> 85185bab07d22b8618cf460c7edef43b885b7ae9
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8k-ZQ-nsT">
                                 <rect key="frame" x="16" y="94" width="143" height="42"/>
@@ -174,18 +154,18 @@
                         <viewControllerLayoutGuide type="bottom" id="s1O-1G-Baz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Qed-b4-H5B">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cyb-rU-5bf">
-                                <rect key="frame" x="50" y="80" width="500" height="440"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cyb-rU-5bf">
+                                <rect key="frame" x="50" y="16" width="500" height="440"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDb-oc-wma" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="500" height="298"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4p-6S-D3y">
                                                 <rect key="frame" x="25" y="13" width="450" height="69"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.1489864588" green="0.4663141348" blue="0.84867527170000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="69" id="OA7-4I-7L5"/>
                                                     <constraint firstAttribute="width" constant="450" placeholder="YES" id="xqW-ub-rSK"/>
@@ -193,7 +173,7 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQo-xv-vTa">
                                                 <rect key="frame" x="25" y="105" width="450" height="69"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.1489864588" green="0.4663141348" blue="0.84867527170000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="69" id="PmQ-KJ-VYY"/>
                                                     <constraint firstAttribute="height" constant="69" id="rFE-Pi-NyB"/>
@@ -206,7 +186,7 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhf-2f-QBT">
                                                 <rect key="frame" x="25" y="219" width="450" height="69"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.1489864588" green="0.4663141348" blue="0.84867527170000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="69" id="4k8-uL-BF8"/>
                                                     <constraint firstAttribute="height" constant="69" id="9oP-4q-fwE"/>
@@ -220,7 +200,7 @@
                                                 </variation>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.60000002379999995" green="0.9215686917" blue="0.8980392814" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="hQo-xv-vTa" firstAttribute="top" secondItem="i4p-6S-D3y" secondAttribute="bottom" constant="23" id="8GU-lw-BUh"/>
                                             <constraint firstItem="i4p-6S-D3y" firstAttribute="leading" secondItem="gDb-oc-wma" secondAttribute="leading" constant="25" id="8bU-g6-j6e"/>
@@ -237,29 +217,11 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="gDb-oc-wma" firstAttribute="centerX" secondItem="Cyb-rU-5bf" secondAttribute="centerX" id="0QX-Zn-e8a"/>
                                     <constraint firstItem="gDb-oc-wma" firstAttribute="leading" secondItem="Cyb-rU-5bf" secondAttribute="leading" id="Ax4-eh-tvZ"/>
                                     <constraint firstAttribute="trailing" secondItem="gDb-oc-wma" secondAttribute="trailing" id="Qgt-DX-4rA"/>
-                                    <constraint firstItem="gDb-oc-wma" firstAttribute="top" secondItem="Cyb-rU-5bf" secondAttribute="top" id="UsH-Fu-mtL"/>
-                                    <constraint firstAttribute="trailing" secondItem="gDb-oc-wma" secondAttribute="trailing" id="VBX-ki-jZD"/>
                                     <constraint firstAttribute="bottom" secondItem="gDb-oc-wma" secondAttribute="bottom" id="cJc-FK-voD"/>
-                                    <constraint firstItem="gDb-oc-wma" firstAttribute="leading" secondItem="Cyb-rU-5bf" secondAttribute="leading" id="kDe-Pn-WPB"/>
-                                    <constraint firstItem="gDb-oc-wma" firstAttribute="centerY" secondItem="Cyb-rU-5bf" secondAttribute="centerY" id="lPs-7M-3fB"/>
-                                    <constraint firstAttribute="bottom" secondItem="gDb-oc-wma" secondAttribute="bottom" id="sOH-dk-q76"/>
                                     <constraint firstItem="gDb-oc-wma" firstAttribute="top" secondItem="Cyb-rU-5bf" secondAttribute="top" id="v67-rf-5WJ"/>
-                                    <constraint firstAttribute="height" constant="270" id="z0E-Pl-VdM"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="z0E-Pl-VdM"/>
-                                        <exclude reference="0QX-Zn-e8a"/>
-                                        <exclude reference="UsH-Fu-mtL"/>
-                                        <exclude reference="VBX-ki-jZD"/>
-                                        <exclude reference="kDe-Pn-WPB"/>
-                                        <exclude reference="lPs-7M-3fB"/>
-                                        <exclude reference="sOH-dk-q76"/>
-                                    </mask>
-                                </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -278,6 +240,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="contentView" destination="gDb-oc-wma" id="Oge-4l-H4L"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hh0-hO-ehR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

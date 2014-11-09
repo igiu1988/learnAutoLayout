@@ -17,9 +17,21 @@ autolayout就是为了适配。利用的是view与view之间的各方向、位�
 2. 详解size class
 3. 简单介绍 VFL，按照这个文章里的内容说一下就行：http://www.cocoachina.com/industry/20131108/7322.html
 4. 提一下Masonry，因为我们以后使用这个库来替代apple的autolayout语法。主要就是介绍一下其使用方法
+5. 动画
 
+```
+	viewLeftConstraint.constant = 10;
+	[UIView animateWithDuration:0.3 animations:^{
+        [superView layoutIfNeeded];
+    }];
 
-### 一些需要知道的技巧
+```
+
+必须是view的superView或者更低层级的superView来调用layoutIfNeeded
+6. 
+
+#
+## 一些需要知道的技巧
 
 1. IB中的constraint是可以拖出来的，所以可以改变其值
 1. `[superView addSubview:view]` 之前 `view.translatesAutoresizingMaskIntoConstraints = NO;`
@@ -37,6 +49,7 @@ autolayout就是为了适配。利用的是view与view之间的各方向、位�
 * [Autolayout及VFL经验分享](http://www.cocoachina.com/industry/20131108/7322.html)
 * [10 Things You Need To Know About Cocoa Auto Layout](http://oleb.net/blog/2013/03/things-you-need-to-know-about-cocoa-autolayout/)
 * [Auto Layout Guide](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/Introduction/Introduction.html#//apple_ref/doc/uid/TP40010853-CH13-SW1)
+* [先进的自动布局工具箱](http://answerhuang.duapp.com/index.php/2013/10/11/advanced-auto-layout-toolbox/) 这篇文章可了解到很多基础知识
 * [iOS: 在代码中使用Autolayout (1) – 按比例缩放和优先级](http://www.mgenware.com/blog/?p=490)
 * [iOS: 在代码中使用Autolayout (2) – 按比例缩放和优先级](http://www.mgenware.com/blog/?p=491)
      
