@@ -1,13 +1,13 @@
 //
-//  ThirdViewController.h
+//  ViewControllerA.h
 //  learnAutoLayout
 //
-//  Created by wangyang on 10/29/14.
+//  Created by wangyang on 11/5/14.
 //  Copyright (c) 2014 com.wy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ThirdViewController : UIViewController
+@interface ViewControllerA : UIViewController
 
 @end

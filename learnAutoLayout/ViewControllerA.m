@@ -1,18 +1,18 @@
 //
-//  ThirdViewController.m
+//  ViewControllerA.m
 //  learnAutoLayout
 //
-//  Created by wangyang on 10/29/14.
+//  Created by wangyang on 11/5/14.
 //  Copyright (c) 2014 com.wy. All rights reserved.
 //
 
-#import "ThirdViewController.h"
+#import "ViewControllerA.h"
 
-@interface ThirdViewController ()
+@interface ViewControllerA ()
 
 @end
 
-@implementation ThirdViewController
+@implementation ViewControllerA
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -47,9 +47,7 @@
     //    NSLayoutConstraint *constraint3 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeTop multiplier:1 constant:44];
     NSLayoutConstraint *constraint5 = [NSLayoutConstraint constraintWithItem:view1 attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeBottom multiplier:1 constant:-10];
     [container addConstraints:@[constraint1, constraint2, constraint5]];
-    
-    
-   
+
 }
 
 - (void)didReceiveMemoryWarning {

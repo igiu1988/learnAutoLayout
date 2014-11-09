@@ -16,7 +16,10 @@
 		D385348819FE990E00ED81A1 /* learnAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D385348719FE990E00ED81A1 /* learnAutoLayoutTests.m */; };
 		D385349419FE9B8500ED81A1 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D385349319FE9B8500ED81A1 /* UIView+Utils.m */; };
 		D385349C19FFD5CC00ED81A1 /* UIView+AddLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D385349B19FFD5CC00ED81A1 /* UIView+AddLine.m */; };
-		D3B894421A012D240040C470 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B894411A012D240040C470 /* ThirdViewController.m */; };
+		D398C0021A0BC3B000E2B9C7 /* ViewControllerC.m in Sources */ = {isa = PBXBuildFile; fileRef = D398C0011A0BC3B000E2B9C7 /* ViewControllerC.m */; };
+		D398C0041A0BC94500E2B9C7 /* MyReallyBigImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D398C0031A0BC94500E2B9C7 /* MyReallyBigImage@2x.png */; };
+		D3B895481A0933CC0040C470 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B895471A0933CC0040C470 /* ViewControllerA.m */; };
+		D3B8954C1A0933F60040C470 /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B8954B1A0933F60040C470 /* ViewControllerB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +51,13 @@
 		D385349619FE9C9100ED81A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D385349A19FFD5CC00ED81A1 /* UIView+AddLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddLine.h"; sourceTree = "<group>"; };
 		D385349B19FFD5CC00ED81A1 /* UIView+AddLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddLine.m"; sourceTree = "<group>"; };
-		D3B894401A012D240040C470 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		D3B894411A012D240040C470 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		D398C0001A0BC3B000E2B9C7 /* ViewControllerC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerC.h; sourceTree = "<group>"; };
+		D398C0011A0BC3B000E2B9C7 /* ViewControllerC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerC.m; sourceTree = "<group>"; };
+		D398C0031A0BC94500E2B9C7 /* MyReallyBigImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyReallyBigImage@2x.png"; sourceTree = "<group>"; };
+		D3B895461A0933CC0040C470 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		D3B895471A0933CC0040C470 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		D3B8954A1A0933F60040C470 /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		D3B8954B1A0933F60040C470 /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,10 +100,9 @@
 		D385346A19FE990E00ED81A1 /* learnAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				D3B895491A0933D80040C470 /* Demo */,
 				D385347219FE990E00ED81A1 /* FirstViewController.h */,
 				D385347319FE990E00ED81A1 /* FirstViewController.m */,
-				D3B894401A012D240040C470 /* ThirdViewController.h */,
-				D3B894411A012D240040C470 /* ThirdViewController.m */,
 				D385347519FE990E00ED81A1 /* Main.storyboard */,
 				D385346B19FE990E00ED81A1 /* Supporting Files */,
 			);
@@ -160,6 +167,20 @@
 				D385349119FE9B8500ED81A1 /* UIView-Utils */,
 			);
 			name = Library;
+			sourceTree = "<group>";
+		};
+		D3B895491A0933D80040C470 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D398C0031A0BC94500E2B9C7 /* MyReallyBigImage@2x.png */,
+				D3B895461A0933CC0040C470 /* ViewControllerA.h */,
+				D3B895471A0933CC0040C470 /* ViewControllerA.m */,
+				D3B8954A1A0933F60040C470 /* ViewControllerB.h */,
+				D3B8954B1A0933F60040C470 /* ViewControllerB.m */,
+				D398C0001A0BC3B000E2B9C7 /* ViewControllerC.h */,
+				D398C0011A0BC3B000E2B9C7 /* ViewControllerC.m */,
+			);
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D385347719FE990E00ED81A1 /* Main.storyboard in Resources */,
+				D398C0041A0BC94500E2B9C7 /* MyReallyBigImage@2x.png in Resources */,
 				D385347C19FE990E00ED81A1 /* LaunchScreen.xib in Resources */,
 				D385347919FE990E00ED81A1 /* Images.xcassets in Resources */,
 			);
@@ -264,10 +286,12 @@
 			files = (
 				D385347419FE990E00ED81A1 /* FirstViewController.m in Sources */,
 				D385347119FE990E00ED81A1 /* AppDelegate.m in Sources */,
-				D3B894421A012D240040C470 /* ThirdViewController.m in Sources */,
 				D385349C19FFD5CC00ED81A1 /* UIView+AddLine.m in Sources */,
 				D385349419FE9B8500ED81A1 /* UIView+Utils.m in Sources */,
+				D3B8954C1A0933F60040C470 /* ViewControllerB.m in Sources */,
 				D385346E19FE990E00ED81A1 /* main.m in Sources */,
+				D398C0021A0BC3B000E2B9C7 /* ViewControllerC.m in Sources */,
+				D3B895481A0933CC0040C470 /* ViewControllerA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +419,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -408,6 +433,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
