@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 com.wy. All rights reserved.
 //
 
-#import "ViewControllerC.h"
+#import "CViewController.h"
 
-@interface ViewControllerC ()
+@interface CViewController ()
 {
     __weak IBOutlet UIView *contentView;
 }
 @end
 
-@implementation ViewControllerC
+@implementation CViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

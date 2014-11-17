@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 com.wy. All rights reserved.
 //
 
-#import "ViewControllerA.h"
+#import "AViewController.h"
 
-@interface ViewControllerA ()
+@interface AViewController ()
 
 @end
 
-@implementation ViewControllerA
+@implementation AViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

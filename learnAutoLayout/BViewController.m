@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 com.wy. All rights reserved.
 //
 
-#import "ViewControllerB.h"
+#import "BViewController.h"
 
-@interface ViewControllerB ()
+@interface BViewController ()
 @property (nonatomic, strong) UILabel *descriptionLabel;
 
 @end
 
-@implementation ViewControllerB
+@implementation BViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

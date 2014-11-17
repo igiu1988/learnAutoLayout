@@ -1,5 +1,5 @@
 //
-//  ViewControllerB.h
+//  ViewControllerA.h
 //  learnAutoLayout
 //
 //  Created by wangyang on 11/5/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewControllerB : UIViewController
+@interface AViewController : UIViewController
 
 @end
