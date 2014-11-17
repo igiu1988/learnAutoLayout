@@ -10,7 +10,7 @@
 
 @interface BViewController ()
 @property (nonatomic, strong) UILabel *descriptionLabel;
-
+@property (nonatomic, weak ) IBOutlet UILabel *label;
 @end
 
 @implementation BViewController
@@ -19,6 +19,11 @@
     [super viewDidLoad];
     
     
+    // container 设置了左右约束和高约束
+    // _laber 设置了四周约束，高250优先级约束，宽250优先级约束
+    _label.text = @"How am I supposed to configure programmatically (and in which method) a UILabel whose height depends on its text? ";
+    
+    // 代码实现 高变化 
     self.descriptionLabel = [[UILabel alloc] init];
     self.descriptionLabel.numberOfLines = 0;
     self.descriptionLabel.backgroundColor = [UIColor redColor];
@@ -32,12 +37,10 @@
     
     NSArray* constrs = [NSLayoutConstraint constraintsWithVisualFormat:@"|-8-[_descriptionLabel]-8-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_descriptionLabel)];
     [self.view addConstraints:constrs];
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-28-[_descriptionLabel]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_descriptionLabel)]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-280-[_descriptionLabel]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_descriptionLabel)]];
     [self.descriptionLabel addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[_descriptionLabel(220@300)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_descriptionLabel)]];
     
-    //    self.descriptionLabel.text = @"How am I supposed to configure programmatically (and in which method) a UILabel whose height depends on its text?";
     self.descriptionLabel.text = @"How am I supposed to configure programmatically (and in which method) a UILabel whose height depends on its text? I've been trying to set it up using a combination of Storyboard and code, but to no avail. Everyone recommends sizeToFit while setting lineBreakMode and numberOfLines. However, no matter if I put that code in viewDidLoad:, viewDidAppear:, or viewDidLayoutSubviews I can't get it to work. Either I make the box too small for long text and it doesn't grow, or I make it too big and it doesn't shrink.";
-    //    self.descriptionLabel.text = @"How am I supposed to configure programmatically (and in which method) a UILabel whose height depends on its text? I've been trying to set it up using a combination of Storyboard and code, but to no avail. Everyone recommends sizeToFit while setting lineBreakMode and numberOfLines. However, no matter if I put that code in viewDidLoad:, viewDidAppear:, or viewDidLayoutSubviews I can't get it to work. Either I make the box too small for long text and it doesn't grow, or I make it too big and it doesn't shrink.How am I supposed to configure programmatically (and in which method) a UILabel whose height depends on its text? I've been trying to set it u";
 }
 
 - (void)didReceiveMemoryWarning {
