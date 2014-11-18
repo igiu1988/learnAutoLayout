@@ -105,7 +105,7 @@
             </objects>
             <point key="canvasLocation" x="-512" y="1214"/>
         </scene>
-        <!--各种示例-->
+        <!--各种示例及table Header高度-->
         <scene sceneID="y1Q-TW-WCN">
             <objects>
                 <tableViewController id="JGM-l4-oes" customClass="DemoTableViewController" sceneMemberID="viewController">
@@ -121,7 +121,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9xe-sw-kVu" id="Hjk-1v-N90">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="A: 使用Masonry" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="u3t-XM-GBh">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="A: 使用Masonry; 示例添加两个subView，并且subview高度会自动计算" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="u3t-XM-GBh">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -192,7 +192,13 @@
                             <outlet property="delegate" destination="JGM-l4-oes" id="SbC-xV-afu"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="各种示例" id="wlI-0w-BDx"/>
+                    <navigationItem key="navigationItem" title="各种示例及table Header高度" id="wlI-0w-BDx">
+                        <barButtonItem key="rightBarButtonItem" title="header change" id="hEP-cM-j1G">
+                            <connections>
+                                <action selector="headerChangeAction:" destination="JGM-l4-oes" id="w3h-dJ-DG2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="07n-li-fOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
