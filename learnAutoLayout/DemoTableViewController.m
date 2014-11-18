@@ -24,10 +24,13 @@
     
 //    TableHeader *header = [[NSBundle mainBundle] loadNibNamed:@"TableHeader" owner:nil options:nil][0];
 //
-    header.contentLabel.text = @"How am I supposed to configure programmatically (and in which method) a UILabel whose height depends on its text? I've been trying to set it up using a combination of Storyboard and code, but to no avail. Everyone recommends sizeToFit while setting lineBreakMode and numberOfLines. However, no matter if I put that code in viewDidLoad:, viewDidAppear:";
+//    header.contentLabel.text = @"How am I supposed to configure programmatically (and in which method) a UILabel whose height depends on its text? I've been trying to set it up using a combination of Storyboard and code, but to no avail. Everyone recommends sizeToFit while setting lineBreakMode and numberOfLines. However, no matter if I put that code in viewDidLoad:, viewDidAppear:";
+    header.label1.preferredMaxLayoutWidth = header.label1.width;
     header.label1.text = @"How am I supposed to configure programmatically (and in which method) a UILabel whose height depends on its text?";
     [header resize];
     self.tableView.tableHeaderView = header;
+    
+    [header layoutIfNeeded];
 
 }
 
