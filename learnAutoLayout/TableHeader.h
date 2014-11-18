@@ -10,5 +10,6 @@
 
 @interface TableHeader : UIView
 @property (weak, nonatomic) IBOutlet UILabel *contentLabel;
-
+@property (weak, nonatomic) IBOutlet UILabel *label1;
+- (void)resize;
 @end

@@ -7,18 +7,25 @@
 //
 
 #import "TableHeader.h"
+@interface TableHeader ()
+{
+    
+}
+@end
 
 @implementation TableHeader
 
-- (void)fitToConent
+
+- (void)resize
 {
-    [self setNeedsLayout];
-    [self layoutIfNeeded];
+    self.contentLabel.preferredMaxLayoutWidth = self.width - 20.0f;
     
     CGFloat height = [self systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
+    
     CGRect frame = self.frame;
     frame.size.height = height;
     self.frame = frame;
+    
 }
 
 

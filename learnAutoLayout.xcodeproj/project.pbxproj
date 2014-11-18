@@ -21,6 +21,7 @@
 		D3B895481A0933CC0040C470 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B895471A0933CC0040C470 /* AViewController.m */; };
 		D3B8954C1A0933F60040C470 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B8954B1A0933F60040C470 /* BViewController.m */; };
 		D3BB20251A0FAF1000BFF17E /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BB20241A0FAF0F00BFF17E /* DViewController.m */; };
+		D3D6490B1A1AE541004A6513 /* UIView+LoadFromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D6490A1A1AE541004A6513 /* UIView+LoadFromNib.m */; };
 		D3FCD90C1A1A40B300D634BA /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FCD90B1A1A40B300D634BA /* DemoTableViewController.m */; };
 		D3FCD90E1A1A411900D634BA /* TableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3FCD90D1A1A411900D634BA /* TableHeader.xib */; };
 		D3FCD9111A1A44CA00D634BA /* TableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FCD9101A1A44CA00D634BA /* TableHeader.m */; };
@@ -73,6 +74,8 @@
 		D3B8954B1A0933F60040C470 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		D3BB20231A0FAF0F00BFF17E /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
 		D3BB20241A0FAF0F00BFF17E /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
+		D3D649091A1AE541004A6513 /* UIView+LoadFromNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LoadFromNib.h"; sourceTree = "<group>"; };
+		D3D6490A1A1AE541004A6513 /* UIView+LoadFromNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LoadFromNib.m"; sourceTree = "<group>"; };
 		D3FCD90A1A1A40B300D634BA /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
 		D3FCD90B1A1A40B300D634BA /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
 		D3FCD90D1A1A411900D634BA /* TableHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeader.xib; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 				D3FCD90D1A1A411900D634BA /* TableHeader.xib */,
 				D3FCD90F1A1A44CA00D634BA /* TableHeader.h */,
 				D3FCD9101A1A44CA00D634BA /* TableHeader.m */,
+				D3D649091A1AE541004A6513 /* UIView+LoadFromNib.h */,
+				D3D6490A1A1AE541004A6513 /* UIView+LoadFromNib.m */,
 				D385347519FE990E00ED81A1 /* Main.storyboard */,
 				D385346B19FE990E00ED81A1 /* Supporting Files */,
 			);
@@ -370,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BB20251A0FAF1000BFF17E /* DViewController.m in Sources */,
+				D3D6490B1A1AE541004A6513 /* UIView+LoadFromNib.m in Sources */,
 				D385347419FE990E00ED81A1 /* FirstViewController.m in Sources */,
 				D3FCD9111A1A44CA00D634BA /* TableHeader.m in Sources */,
 				D3FCD90C1A1A40B300D634BA /* DemoTableViewController.m in Sources */,
