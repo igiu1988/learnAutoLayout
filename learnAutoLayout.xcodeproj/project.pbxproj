@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D36309261A3812890083D4FE /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36309251A3812890083D4FE /* EViewController.m */; };
+		D36309281A3817AA0083D4FE /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36309271A3817AA0083D4FE /* Reveal.framework */; };
+		D363092B1A381C970083D4FE /* MASExampleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D363092A1A381C970083D4FE /* MASExampleScrollView.m */; };
 		D385346E19FE990E00ED81A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D385346D19FE990E00ED81A1 /* main.m */; };
 		D385347119FE990E00ED81A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D385347019FE990E00ED81A1 /* AppDelegate.m */; };
 		D385347419FE990E00ED81A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D385347319FE990E00ED81A1 /* FirstViewController.m */; };
@@ -47,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D36309241A3812890083D4FE /* EViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EViewController.h; sourceTree = "<group>"; };
+		D36309251A3812890083D4FE /* EViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EViewController.m; sourceTree = "<group>"; };
+		D36309271A3817AA0083D4FE /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		D36309291A381C970083D4FE /* MASExampleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleScrollView.h; sourceTree = "<group>"; };
+		D363092A1A381C970083D4FE /* MASExampleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleScrollView.m; sourceTree = "<group>"; };
 		D385346819FE990E00ED81A1 /* learnAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D385346C19FE990E00ED81A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D385346D19FE990E00ED81A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,7 +89,6 @@
 		D3FCD90D1A1A411900D634BA /* TableHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeader.xib; sourceTree = "<group>"; };
 		D3FCD90F1A1A44CA00D634BA /* TableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableHeader.h; sourceTree = "<group>"; };
 		D3FCD9101A1A44CA00D634BA /* TableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableHeader.m; sourceTree = "<group>"; };
-		D3FCD9121A1A52F200D634BA /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		D3FCD9151A1A621000D634BA /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		D3FCD9161A1A621000D634BA /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		D3FCD9171A1A621000D634BA /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -112,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36309281A3817AA0083D4FE /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +136,7 @@
 		D385345F19FE990E00ED81A1 = {
 			isa = PBXGroup;
 			children = (
-				D3FCD9121A1A52F200D634BA /* Reveal.framework */,
+				D36309271A3817AA0083D4FE /* Reveal.framework */,
 				D3B8943F19FFEA520040C470 /* Library */,
 				D385346A19FE990E00ED81A1 /* learnAutoLayout */,
 				D385348419FE990E00ED81A1 /* learnAutoLayoutTests */,
@@ -237,6 +245,10 @@
 				D398C0011A0BC3B000E2B9C7 /* CViewController.m */,
 				D3BB20231A0FAF0F00BFF17E /* DViewController.h */,
 				D3BB20241A0FAF0F00BFF17E /* DViewController.m */,
+				D36309241A3812890083D4FE /* EViewController.h */,
+				D36309251A3812890083D4FE /* EViewController.m */,
+				D36309291A381C970083D4FE /* MASExampleScrollView.h */,
+				D363092A1A381C970083D4FE /* MASExampleScrollView.m */,
 			);
 			name = Demo;
 			sourceTree = "<group>";
@@ -388,10 +400,12 @@
 				D3FCD92F1A1A621000D634BA /* MASLayoutConstraint.m in Sources */,
 				D3FCD92E1A1A621000D634BA /* MASConstraintMaker.m in Sources */,
 				D385349419FE9B8500ED81A1 /* UIView+Utils.m in Sources */,
+				D36309261A3812890083D4FE /* EViewController.m in Sources */,
 				D3B8954C1A0933F60040C470 /* BViewController.m in Sources */,
 				D385346E19FE990E00ED81A1 /* main.m in Sources */,
 				D398C0021A0BC3B000E2B9C7 /* CViewController.m in Sources */,
 				D3FCD9321A1A621000D634BA /* NSArray+MASAdditions.m in Sources */,
+				D363092B1A381C970083D4FE /* MASExampleScrollView.m in Sources */,
 				D3FCD9301A1A621000D634BA /* MASViewAttribute.m in Sources */,
 				D3B895481A0933CC0040C470 /* AViewController.m in Sources */,
 				D3FCD92D1A1A621000D634BA /* MASConstraint.m in Sources */,
@@ -516,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -539,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
